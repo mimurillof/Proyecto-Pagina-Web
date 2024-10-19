@@ -75,7 +75,7 @@ ui <- fluidPage(
                           # Contenedor para la foto de perfil
                           div(class = "profile-image-container",
                               tags$img(
-                                src = "ruta_a_tu_foto.jpg", # Aquí deberás poner la ruta a tu foto
+                                src = "www/Foto_Miguel_A_Murillo.jpg", # Aquí deberás poner la ruta a tu foto
                                 class = "profile-image",
                                 alt = "Foto de perfil"
                               )
