@@ -26,11 +26,10 @@ ui <- fluidPage(
         # Página de inicio
         tabPanel("Inicio",
             div(class = "content-section",
-                # Imagen
+                # Imagen desde la web - Reemplaza esta URL con la URL de tu imagen
                 tags$img(
-                    src = "tu_foto.jpg",
-                    width = "300px",
-                    style = "border-radius: 50%; margin: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
+                    src = "https://raw.githubusercontent.com/mimurillof/Proyecto-Pagina-Web/refs/heads/main/www/Foto_Miguel_A_Murillo.jpg",  # Reemplaza con tu URL
+                    class = "profile-image"
                 ),
                 
                 h1("Bienvenido a mi página personal"),
