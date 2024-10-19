@@ -19,7 +19,7 @@ ui <- fluidPage(
     "),
     
     navbarPage(
-        "Mi Página Personal",
+        "Miguel A. Murillo",  # Título de la página
         id = "navbar",
         fluid = TRUE,  # Asegura que la barra de navegación sea fluida
         
@@ -34,21 +34,21 @@ ui <- fluidPage(
                 
                 tags$h1("Bienvenido a mi página personal"),
                 tags$hr(),
-                tags$h4("Soy [Tu Nombre]"),
-                tags$p("Desarrollador/Científico de datos/[Tu profesión]"),
-                tags$p("Aquí puedes escribir una breve biografía..."),
+                tags$h4("Soy Miguel Angel Murillo Frias"),
+                tags$p("Desarrollador/Científico de datos/Analista de Datos"),
+                tags$p("Originario de Bogotá, Colombia, mi pasión por la adquisición de conocimiento y el aprendizaje constante me ha llevado a dedicarme al estudio y la exploración de nuevas fronteras del saber. Actualmente, soy estudiante de Estadística en la prestigiosa Universidad Nacional de Colombia, sede Bogotá, y simultáneamente, me formo en Análisis y Desarrollo de Software en el SENA. Mi fascinación por la ciencia ficción y los avances científicos en el campo de la inteligencia artificial se refleja en mi experiencia práctica con diversas aplicaciones para el desarrollo de proyectos, programación y análisis de datos. Esta combinación de educación formal y experiencia práctica me posiciona como un profesional emergente en el ámbito tecnológico, listo para enfrentar los retos del futuro."),
                 
                 # Iconos de contacto (ahora en blanco por el tema oscuro)
                 tags$div(class = "contact-icons",
-                    tags$a(href = "mailto:tu@gmail.com",
+                    tags$a(href = "mimurillof@unal.edu.co",
                       fa("envelope")),
-                    tags$a(href = "https://github.com/tu-usuario",
+                    tags$a(href = "https://github.com/mimurillof",
                       fa("github")),
-                    tags$a(href = "https://linkedin.com/in/tu-perfil",
+                    tags$a(href = "https://www.linkedin.com/in/miguel-angel-murillo-frias-66baaa244",
                       fa("linkedin")),
-                    tags$a(href = "https://kaggle.com/tu-usuario",
+                    tags$a(href = "https://www.kaggle.com/miguelangelmurillo",
                       fa("kaggle")),
-                    tags$a(href = "https://wa.me/TuNumeroCon54",
+                    tags$a(href = "https://wa.link/xun1v4",
                       fa("whatsapp"))
                 )
             )
