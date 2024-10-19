@@ -66,7 +66,7 @@ ui <- fluidPage(
     "),
     
     navbarPage(
-        "Mi Página Personal",
+        "Miguel A. Murillo",  # Título de la página
         id = "navbar",
         fluid = TRUE,
         
@@ -81,21 +81,21 @@ ui <- fluidPage(
                 
                 h1("Bienvenido a mi página personal"),
                 hr(),
-                h4("Soy [Tu Nombre]"),
-                p("Desarrollador/Científico de datos/[Tu profesión]"),
-                p("Aquí puedes escribir una breve biografía..."),
+                h4("Soy Miguel Angel Murillo Frias"),
+                p("Desarrollador/Científico de datos/Analista Financiero"),
+                p("Nací en la vibrante ciudad de Bogotá, Colombia, un lugar renombrado por su rica cultura y su papel crucial en la educación y la tecnología a lo largo de América Latina. Soy estudiante de estadística en la Universidad Nacional de Colombia y de análisis y desarrollo de software en el SENA, lo que me coloca en una posición privilegiada para integrar la teoría matemática con aplicaciones tecnológicas prácticas. Mi pasión por la ciencia ficción y la tecnología, sumada a mi interés en los avances de la inteligencia artificial, me proporcionan no solo una comprensión profunda de las herramientas actuales, sino que también me preparan para ser parte de la vanguardia de innovadores en sectores productivos. Con mi educación y mi entusiasmo, estoy destinado a hacer una contribución significativa al mundo de la tecnología y la estadística."),
                 
                 # Iconos de contacto
                 div(class = "contact-icons",
-                    a(href = "mailto:tu@gmail.com",
+                    a(href = "mimurillof@unal.edu.co",
                       fa("envelope")),
-                    a(href = "https://github.com/tu-usuario",
+                    a(href = "https://github.com/mimurillof",
                       fa("github")),
-                    a(href = "https://linkedin.com/in/tu-perfil",
+                    a(href = "https://www.linkedin.com/in/miguel-angel-murillo-frias-66baaa244/",
                       fa("linkedin")),
-                    a(href = "https://kaggle.com/tu-usuario",
+                    a(href = "https://www.kaggle.com/miguelangelmurillo",
                       fa("kaggle")),
-                    a(href = "https://wa.me/TuNumeroCon54",
+                    a(href = "https://wa.link/sarz8h",
                       fa("whatsapp"))
                 )
             )
