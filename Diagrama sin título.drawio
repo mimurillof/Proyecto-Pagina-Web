@@ -7,7 +7,7 @@
         <mxCell id="zBpKJee6JxX468xwTtTU-3" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;fillColor=light-dark(#FFFFFF,#000000);strokeColor=light-dark(#000000,#0A1A2F);" vertex="1" parent="1">
           <mxGeometry x="182.5" y="222.5" width="505" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="zBpKJee6JxX468xwTtTU-6" value="Login" style="text;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000,#00FFFF);fontStyle=1;fontFamily=Helvetica;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="zBpKJee6JxX468xwTtTU-6" value="Login" style="text;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000,#00FFFF);fontStyle=1;fontFamily=Helvetica;fontSize=24;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="395" y="140" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zBpKJee6JxX468xwTtTU-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#0A1A2F);strokeColor=light-dark(#000000,#1A365F);" vertex="1" parent="1">
